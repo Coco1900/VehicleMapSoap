@@ -3,13 +3,13 @@
     "builds":
         [   
             {
-             "src":"TempsTrajet.py",
+             "src":"./TempsTrajet.py",
              "use": "@vercel/python"
             }
            
         ],
         "routes":[{
             "src": "/(.*)",
-            "dest": "TempsTrajet.py"
+            "dest": "./TempsTrajet.py"
         }]
 }
